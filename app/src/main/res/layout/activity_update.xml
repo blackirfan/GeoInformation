@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/back"
+    tools:context=".UpdateActivity">
+
+
+
+    <EditText
+        android:id="@+id/et_name"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_margin="5dp"
+        android:padding="5dp"
+
+
+        android:background="@drawable/edittext_rounded_corners"
+        android:hint="Student Name "/>
+
+    <EditText
+        android:id="@+id/et_comment"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+
+        android:background="@drawable/edittext_rounded_corners"
+        android:layout_margin="5dp"
+        android:padding="5dp"
+        android:hint="comment "/>
+
+    <EditText
+        android:id="@+id/et_date"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+
+        android:background="@drawable/edittext_rounded_corners"
+        android:layout_margin="5dp"
+        android:padding="5dp"
+        android:hint="date"/>
+    <EditText
+        android:id="@+id/et_time"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+
+        android:background="@drawable/edittext_rounded_corners"
+        android:layout_margin="5dp"
+        android:padding="5dp"
+        android:hint="time"/>
+    <EditText
+        android:id="@+id/et_latitude"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+
+        android:background="@drawable/edittext_rounded_corners"
+        android:layout_margin="5dp"
+        android:padding="5dp"
+        android:hint="latitude"/>
+    <EditText
+        android:id="@+id/et_longitude"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+
+        android:background="@drawable/edittext_rounded_corners"
+        android:layout_margin="5dp"
+        android:padding="5dp"
+        android:hint="longitude"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorGreen"
+        android:text="update data"
+        android:onClick="update"/>
+
+
+
+</LinearLayout>
